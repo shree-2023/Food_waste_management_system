@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "456901957254",
+    "project_id": "foodwastemanagement-f7b5e",
+    "storage_bucket": "foodwastemanagement-f7b5e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456901957254:android:4ca7b84559db721eeaa307",
+        "android_client_info": {
+          "package_name": "com.example.aahaarapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGqO3_AXg5QCduTRU9cuthoW5nJpanRwI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
