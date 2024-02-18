@@ -56,6 +56,7 @@ dependencies {
     implementation ("androidx.navigation:navigation-ui:2.3.5")
     implementation ("androidx.lifecycle:lifecycle-livedata-ktx:2.3.1")
     implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1")
+    implementation("com.google.firebase:firebase-database:20.3.0")
 
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")

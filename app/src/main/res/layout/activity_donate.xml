@@ -165,9 +165,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="200dp"
                         android:layout_marginTop="20dp"
-                        map:uiZoomControls="true"
-                        tools:ignore="FragmentTagUsage"
-                        tools:layout="@layout/fragment_donate" />
+                        map:uiZoomControls="true" />
+<!--                        tools:layout="@layout/fragment_donate" />-->
 
                     <Button
                         android:id="@+id/submit"
