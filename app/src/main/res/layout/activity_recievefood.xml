@@ -91,8 +91,7 @@
                         android:textColorHint="@color/black"
                         android:textSize="20sp"
                         app:boxStrokeColor="@color/zircon"
-                        app:hintTextColor="@color/black"
-                        app:passwordToggleEnabled="true">
+                        app:hintTextColor="@color/black">
 
                         <EditText
                             android:id="@+id/description"
@@ -101,11 +100,10 @@
                             android:layout_marginTop="10dp"
                             android:backgroundTint="@color/zircon"
                             android:fontFamily="sans-serif"
-                            android:hint="@string/description"
+                            android:hint="Type here"
                             android:importantForAutofill="no"
                             android:inputType="textMultiLine"
                             android:maxLines="10"
-                            android:text="@string/type_here"
                             android:textAlignment="textStart"
                             android:textColor="@color/gray"
                             android:textColorHint="@color/black"

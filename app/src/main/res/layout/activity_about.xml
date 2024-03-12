@@ -6,4 +6,66 @@
     android:layout_height="match_parent"
     tools:context=".About">
 
+    <TextView
+        android:id="@+id/actionBarTitle"
+        android:layout_width="417dp"
+        android:layout_height="32dp"
+        android:layout_gravity="center_vertical"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/actionBarIcon"
+        android:layout_width="37dp"
+        android:layout_height="31dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/arrow"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/divider_horizontal_dark"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:text="About Us"
+        android:textColor="#2196F3"
+        android:textColorLink="#FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.131" />
+
+    <TextView
+        android:id="@+id/textViewDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="The Food Waste Management System serves a crucial role in addressing situations where significant
+        amounts of food are being wasted by providing a platform for redistribution to those in need. The app acts as a bridge
+between donors and receivers, facilitating the transfer of surplus food to individuals or organizations lacking access to adequate meals.
+
+        Initially, both donors and receivers must register on the app. Donors can then access the donor section to input deta about the available food items and their location, which are then updated within the app. On the other hand, receivers can
+ request food through the app. Once a request is made, both donors and receivers can communicate and coordinate the transfer
+          of food, ensuring efficient and effective redistribution. "
+        android:textSize="16sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.177"
+        tools:layout_editor_absoluteX="-16dp" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
