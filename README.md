@@ -4,5 +4,5 @@ The proposed design model provides a robust framework for the development of a F
 ![image](https://github.com/user-attachments/assets/44ecdae5-53c8-4909-ab8e-3f022605ceaf)
 ![image](https://github.com/user-attachments/assets/531d0a30-65eb-423f-a7d3-221f9528328f)
 ![image](https://github.com/user-attachments/assets/d7833a13-ce8e-431c-81e6-71c515c90cf1)
-![image](https://github.com/user-attachments/assets/fa6dd393-98c9-4f1e-a461-c58c4c281875)
+![image](https://github.com/user-attachments/assets/e199e258-990b-4f4b-9634-c372734f72f4)
 
